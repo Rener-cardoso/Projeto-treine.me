@@ -101,4 +101,40 @@ footer {
         bottom: 0;
     }
 
+@media (max-width: 500px) {
+    .page {
+        padding: 16px;
+    }
 
+    header {
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+    }
+
+    header a {
+        margin-right: 20px;
+    }
+
+    main {
+        display: block;
+    }
+    
+    h1 {
+        width: 400px;
+    }
+
+    p {
+        width: 300px;
+    }
+
+    .woman-jumping {
+        margin: 40px;
+        width: 300px;
+        padding-left: 0px;
+    }
+
+    button {
+        margin: ;
+    }
+}
