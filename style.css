@@ -121,6 +121,15 @@ footer {
         padding-left: 1rem;
     }
 
+    h1 {
+        padding-left: 1rem;
+    }
+
+    p {
+        padding-left: .5rem;
+    }
+
+
     main {
         display: block;
         max-width: 390px;
