@@ -102,39 +102,43 @@ footer {
     }
 
 @media (max-width: 500px) {
+
     .page {
-        padding: 16px;
+        width: 100%;
+        padding: 1%;
+        margin-top: 1rem;
+    }
+
+    ul {
+        display: flex;
+        gap: 1rem;
     }
 
     header {
         display: flex;
-        justify-content: flex-start;
-        align-items: center;
-    }
-
-    header a {
-        margin-right: 20px;
+        justify-content: space-between;
+        padding-right: 1rem;
+        padding-left: 1rem;
     }
 
     main {
         display: block;
-    }
-    
-    h1 {
-        width: 400px;
+        max-width: 390px;
     }
 
-    p {
-        width: 300px;
-    }
-
-    .woman-jumping {
-        margin: 40px;
-        width: 300px;
-        padding-left: 0px;
+    .text {
+        max-width: 100%;
     }
 
     button {
-        margin: ;
+        margin: auto;
+    }
+
+    footer {
+        text-align: center;
+    }
+
+    .woman-jumping {
+        width: 90%;
     }
 }
